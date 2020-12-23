@@ -1,0 +1,51 @@
+@media only screen and (min-width: 480px) {
+    #div1{
+        margin-left: 0rem;
+    }
+    .card{
+        align-items: center;
+    }
+    textarea{
+        width: 28rem;
+        height: 0rem;
+        text-align: center;
+    }
+  }
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: black !important;
+        scroll-behavior: smooth;
+    }
+    #div1{
+        margin-left: 22rem;
+        background-image: url('masquerade.png');
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: max-content;
+        color: white;
+    }
+    #btn{
+        margin-left: 12.8rem;
+    }
+    .card{
+        margin-left: 6.5rem;
+    }
+    textarea{
+        width: 32rem;
+        height: 2rem;
+        text-align: center;
+    }
+    #desktop{
+        width: 460px;
+        height: 300px;
+    }
+    .ball {
+        position: absolute;
+        border-radius: 100%;
+        opacity: 0.7;
+      }
+    
+}
+#text{
+    text-align: center;
+}
